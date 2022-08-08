@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact V12</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="assets/img/favicon.ico" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/utill.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/mainn.css">
+
+
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <meta name="robots" content="noindex, follow">
+    <script
+        nonce="18b597c0-1af1-4c1a-9dde-66b46274e18e">(function (w, d) { !function (a, e, t, r) { a.zarazData = a.zarazData || {}; a.zarazData.executed = []; a.zaraz = { deferred: [] }; a.zaraz.q = []; a.zaraz._f = function (e) { return function () { var t = Array.prototype.slice.call(arguments); a.zaraz.q.push({ m: e, a: t }) } }; for (const e of ["track", "set", "ecommerce", "debug"]) a.zaraz[e] = a.zaraz._f(e); a.zaraz.init = () => { var t = e.getElementsByTagName(r)[0], z = e.createElement(r), n = e.getElementsByTagName("title")[0]; n && (a.zarazData.t = e.getElementsByTagName("title")[0].text); a.zarazData.x = Math.random(); a.zarazData.w = a.screen.width; a.zarazData.h = a.screen.height; a.zarazData.j = a.innerHeight; a.zarazData.e = a.innerWidth; a.zarazData.l = a.location.href; a.zarazData.r = e.referrer; a.zarazData.k = a.screen.colorDepth; a.zarazData.n = e.characterSet; a.zarazData.o = (new Date).getTimezoneOffset(); a.zarazData.q = []; for (; a.zaraz.q.length;) { const e = a.zaraz.q.shift(); a.zarazData.q.push(e) } z.defer = !0; for (const e of [localStorage, sessionStorage]) Object.keys(e || {}).filter((a => a.startsWith("_zaraz_"))).forEach((t => { try { a.zarazData["z_" + t.slice(7)] = JSON.parse(e.getItem(t)) } catch { a.zarazData["z_" + t.slice(7)] = e.getItem(t) } })); z.referrerPolicy = "origin"; z.src = "/cdn-cgi/zaraz/s.js?z=" + btoa(encodeURIComponent(JSON.stringify(a.zarazData))); t.parentNode.insertBefore(z, t) };["complete", "interactive"].includes(e.readyState) ? zaraz.init() : a.addEventListener("DOMContentLoaded", zaraz.init) }(w, d, 0, "script"); })(window, document);</script>
+</head>
+
+<body>
+    <div class="bg-contact100" style="background-image: url('images/bg-01.jpg');">
+        <div class="container-contact100">
+            <div class="wrap-contact100">
+                <!-- <div class="contact100-pic js-tilt" data-tilt>
+                    <img src="assets/img/img-01.png" alt="IMG">
+                </div> -->
+                <form class="contact100-form validate-form" action="mail.php" role="form" method="post">
+                    <span class="contact100-form-title">
+                        Get in touch With the team
+                    </span>
+
+
+
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your name">
+                        <input id="name" class="input100" type="text" autocomplete="off" name="name"
+                            placeholder="Full Name*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your Designation">
+                        <input id="designation" class="input100" autocomplete="off" type="text" name="designation"
+                            placeholder="Designation">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your Company">
+                        <input id="company" class="input100" autocomplete="off" type="text" name="company"
+                            placeholder="Company">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your Address">
+                        <input id="address" class="input100" autocomplete="off" type="text" name="address"
+                            placeholder="Address*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your City">
+                        <input id="city" class="input100" type="text" autocomplete="off" name="city" placeholder="City*"
+                            required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your Country">
+                        <input id="country" class="input100" autocomplete="off" type="text" name="country"
+                            placeholder="Country*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your Area Code">
+                        <input id="areacode" class="input100" autocomplete="off" type="text" name="areacode"
+                            placeholder="Area Code*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your phone">
+                        <input id="mobilenumber" class="input100" autocomplete="off" type="text" name="mobilenumber"
+                            placeholder="Mobile Number*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your email: e@a.x">
+                        <input id="email" class="input100" autocomplete="off" type="text" name="email"
+                            placeholder="E-mail*" required>
+                        <span class="focus-input100"></span>
+                    </div>
+
+
+                    <!-- H o n e y p o t -->
+                    <label class="ohnohoney" for="name"></label>
+                    <input class="ohnohoney" autocomplete="off" type="text" id="hname" name="hname"
+                        placeholder="Your name here">
+                    <label class="ohnohoney" for="email"></label>
+                    <input class="ohnohoney" autocomplete="off" type="email" id="hemail" name="hemail"
+                        placeholder="Your e-mail here">
+
+
+
+
+
+
+
+
+
+
+                    <div class="wrap-input100 validate-input" data-validate="Please enter your message">
+                        <textarea id="message" class="input100" name="message" placeholder="Your Message"></textarea>
+                        <span class="focus-input100"></span>
+                    </div>
+
+
+
+
+
+                    <div class="wrapper" style="
+                    width: 99%;
+                    margin-left: 1px;">
+                        <header>Captcha</header>
+                        <div class="captcha-area">
+                            <div class="captcha-img">
+                                <img src="assets/img/download.jpeg" alt="Captch Background">
+                                <span class="captcha"></span>
+                            </div>
+                            <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+                        </div>
+                        <div class="input-area">
+                            <input type="text" placeholder="Enter captcha" maxlength="6" spellcheck="false"
+                                required>
+                            <button class="check-btn">Check</button>
+                        </div>
+                        <div class="status-text"></div>
+                    </div>
+                    <script src="assets/js/script.js"></script>
+                    <div class="container-contact100-form-btn">
+                        <button id="submitButton1" class="contact100-form-btn" disabled="disabled">
+                            <span>
+                                <i class="fa fa-paper-plane-o m-r-6" aria-hidden="true"></i>
+                                Send
+                            </span>
+                        </button>
+                    </div>
+
+
+
+
+
+                </form>
+                
+                 <DIV>
+                    <!-- HTML !-->
+                    <a href="index.html" class="button-1" role="button" style="margin-top: 20px;" >Return Back</a>
+                </DIV>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="vendor/select2/select2.min.js"></script>
+
+    <script src="vendor/tilt/tilt.jquery.min.js"></script>
+    <script>
+        $('.js-tilt').tilt({
+            scale: 1.1
+        })
+    </script>
+
+    <script src="js/main.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+    <script defer
+        src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+        integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+        data-cf-beacon='{"rayId":"72a8cae9afdb857e","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.6.0","si":100}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
